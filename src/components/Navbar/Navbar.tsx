@@ -20,7 +20,7 @@ export default function Navbar() {
     <nav className="bg-gradient-to-r from-sbu-navy via-sbu-navy to-sbu-royal text-white shadow-xl sticky top-0 z-50 backdrop-blur-sm bg-opacity-95">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
-          <Link to="/" className="flex items-center space-x-3 group">
+          <Link to="/home" className="flex items-center space-x-3 group">
             <div className="w-10 h-10 bg-gradient-to-br from-sbu-red to-red-700 rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
               <span className="text-xl">🅿️</span>
             </div>
@@ -89,4 +89,3 @@ export default function Navbar() {
     </nav>
   );
 }
-
