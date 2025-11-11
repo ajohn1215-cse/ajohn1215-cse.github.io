@@ -152,6 +152,7 @@ interface ParkingStore {
     ev: boolean;
     accessible: boolean;
     faculty: boolean;
+    metered: boolean;
   };
   setFilter: (key: keyof ParkingStore['filters'], value: boolean) => void;
   viewMode: 'list' | 'map';
@@ -219,6 +220,7 @@ export const useParkingStore = create<ParkingStore>((set) => ({
     ev: false,
     accessible: false,
     faculty: false,
+    metered: false,
   },
   setFilter: (key, value) =>
     set((state) => ({

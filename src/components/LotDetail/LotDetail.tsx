@@ -282,8 +282,31 @@ export default function LotDetail() {
                   )}
                 </dd>
               </div>
+              {lot.isMetered && (
+                <div className="card bg-gradient-to-br from-emerald-50 to-green-50 border-2 border-green-200 mt-6">
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="w-10 h-10 bg-gradient-to-br from-green-500 to-emerald-600 rounded-xl flex items-center justify-center shadow-lg">
+                      <span className="text-xl">💰</span>
+                    </div>
+                    <h3 className="text-2xl font-extrabold text-green-900">Metered Parking Rates</h3>
+                  </div>
+                  <div className="space-y-4">
+                    <div className="bg-white rounded-xl p-4 border border-green-200">
+                      <div className="text-sm font-semibold text-gray-600 mb-1">Rate</div>
+                      <div className="text-3xl font-extrabold text-green-700">$2.50 <span className="text-lg text-gray-600">per hour</span></div>
+                    </div>
+                    <div className="bg-white rounded-xl p-4 border border-green-200">
+                      <div className="text-sm font-semibold text-gray-600 mb-2">Enforcement Hours</div>
+                      <div className="text-lg font-bold text-gray-800 mb-3">Monday to Friday: 7:00 AM - 7:00 PM</div>
+                      <div className="flex items-start gap-2 text-sm text-gray-700">
+                        <span className="text-green-600 font-bold mt-0.5">✓</span>
+                        <span>Free parking outside enforcement hours and on weekends</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              )}
               <div>
-                <dt className="text-sm font-semibold text-gray-600 mb-3">Tags</dt>
                 <dd className="flex flex-wrap gap-2 mt-2">
                   {lot.tags.map((tag) => (
                     <span

@@ -47,6 +47,26 @@ export default function About() {
         </section>
 
         <section className="card">
+          <h2 className="text-2xl font-bold text-sbu-navy mb-4">Metered Parking Rates</h2>
+          <div className="bg-blue-50 border-l-4 border-sbu-blue p-4 mb-4">
+            <h3 className="text-lg font-semibold text-sbu-navy mb-3">💵 Price & Enforcement Hours</h3>
+            <p className="text-gray-700 mb-3">
+              <strong>Rate:</strong> <span className="text-lg font-bold text-sbu-red">$2.50 per hour</span>
+            </p>
+            <p className="text-gray-700">
+              <strong>Enforcement Hours:</strong> <span className="font-semibold">Monday to Friday, 7:00 AM to 7:00 PM</span>
+            </p>
+            <p className="text-gray-600 text-sm mt-3">
+              Meters are enforced on all metered parking lots. Outside of enforcement hours and on weekends, metered spaces are available at no charge.
+            </p>
+          </div>
+          <p className="text-gray-700">
+            Look for the <strong>💰 Metered</strong> indicator on parking lots in the app to identify metered spaces. 
+            Plan accordingly and bring coins or payment methods for daytime parking.
+          </p>
+        </section>
+
+        <section className="card">
           <h2 className="text-2xl font-bold text-sbu-navy mb-4">Areas Enforced 24/7</h2>
           <p className="text-gray-700 mb-4">
             Please note that the following lots/parking spaces are restricted and enforced at all times:
@@ -73,15 +93,15 @@ export default function About() {
         </section>
 
         <section className="card">
-          <h2 className="text-2xl font-bold text-sbu-navy mb-4">Summer Session Parking</h2>
+          <h2 className="text-2xl font-bold text-sbu-navy mb-4">Fall Session Parking</h2>
           <p className="text-gray-700 mb-4">
-            <strong>Summer session parking begins May 19, 2024, and ends August 17, 2024.</strong>
+            <strong>Fall session parking begins and follows the standard academic calendar.</strong>
           </p>
           
           <div className="mb-4">
             <h3 className="text-lg font-semibold text-sbu-navy mb-2">Commuter Students</h3>
             <p className="text-gray-700 mb-2">
-              During the summer session, commuter students may park in the following lots. Vehicles must display a valid parking permit, 
+              During the fall session, commuter students may park in the following lots. Vehicles must display a valid parking permit, 
               either a Commuter Premium or Commuter Standard permit.
             </p>
             <p className="text-gray-700 font-semibold">

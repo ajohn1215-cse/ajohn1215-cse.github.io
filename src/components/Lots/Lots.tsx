@@ -17,6 +17,8 @@ export default function Lots() {
       setFilter('visitor', true);
     } else if (filterParam === 'faculty') {
       setFilter('faculty', true);
+    } else if (filterParam === 'metered') {
+      setFilter('metered', true);
     }
   }, [searchParams, setFilter]);
 
@@ -25,12 +27,12 @@ export default function Lots() {
   }, [localSearch, setSearchQuery]);
 
   const filteredLots = useMemo(() => {
-    return lots.filter((lot) => {
+    return lots.filter((lot: Lot) => {
       // Search filter
       const matchesSearch =
         lot.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
         lot.code.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        lot.tags.some((tag) => tag.toLowerCase().includes(searchQuery.toLowerCase()));
+        lot.tags.some((tag: string) => tag.toLowerCase().includes(searchQuery.toLowerCase()));
 
       // Tag filters
       const matchesVisitor = !filters.visitor || lot.tags.includes('visitor');
@@ -40,8 +42,11 @@ export default function Lots() {
       const matchesAccessible = !filters.accessible || lot.amenities.accessible;
       
       // Faculty filter - check if lot has faculty sections
-      const hasFacultySection = lot.sections?.some(section => section.type === 'faculty') || false;
+      const hasFacultySection = lot.sections?.some((section: any) => section.type === 'faculty') || false;
       const matchesFaculty = !filters.faculty || hasFacultySection;
+
+      // Metered filter
+      const matchesMetered = !filters.metered || lot.isMetered;
 
       return (
         matchesSearch &&
@@ -50,7 +55,8 @@ export default function Lots() {
         matchesGarage &&
         matchesEV &&
         matchesAccessible &&
-        matchesFaculty
+        matchesFaculty &&
+        matchesMetered
       );
     });
   }, [lots, searchQuery, filters]);
@@ -182,6 +188,16 @@ export default function Lots() {
             }`}
           >
             👔 Faculty
+          </button>
+          <button
+            onClick={() => setFilter('metered', !filters.metered)}
+            className={`px-5 py-2.5 rounded-full text-sm font-semibold transition-all duration-300 shadow-md ${
+              filters.metered
+                ? 'bg-gradient-to-r from-sbu-red to-red-700 text-white shadow-red-500/30 scale-105'
+                : 'bg-white border-2 border-gray-200 text-gray-700 hover:border-sbu-red hover:shadow-lg'
+            }`}
+          >
+            💰 Metered
           </button>
         </div>
       </div>
