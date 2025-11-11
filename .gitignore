@@ -26,3 +26,6 @@ dist-ssr
 # Ignore local gh-pages worktree
 .gh-pages/
 
+# Ignore deployment folders
+.deploy/
+.user-site/
