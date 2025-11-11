@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-body antialiased bg-gray-50;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+
+  * {
+    @apply transition-colors duration-200;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-gradient-to-r from-sbu-red to-red-700 text-white px-8 py-4 rounded-xl font-semibold 
+           shadow-lg shadow-red-500/30 hover:shadow-xl hover:shadow-red-500/40 
+           transform hover:scale-105 active:scale-95 
+           transition-all duration-300 ease-out
+           focus:outline-none focus:ring-4 focus:ring-sbu-red/50 focus:ring-offset-2;
+  }
+  
+  .btn-secondary {
+    @apply border-2 border-sbu-navy text-sbu-navy px-8 py-4 rounded-xl font-semibold 
+           bg-white hover:bg-sbu-navy hover:text-white 
+           shadow-md hover:shadow-lg
+           transform hover:scale-105 active:scale-95
+           transition-all duration-300 ease-out
+           focus:outline-none focus:ring-4 focus:ring-sbu-navy/50 focus:ring-offset-2;
+  }
+  
+  .card {
+    @apply bg-white rounded-2xl shadow-lg shadow-gray-200/50 border border-gray-100 p-8
+           hover:shadow-xl hover:shadow-gray-300/50 transition-all duration-300;
+  }
+
+  .card-elevated {
+    @apply bg-white rounded-2xl shadow-2xl shadow-gray-300/30 border border-gray-100 p-8
+           hover:shadow-2xl hover:shadow-gray-400/40 transition-all duration-300;
+  }
+  
+  .status-badge {
+    @apply inline-flex items-center px-4 py-2 rounded-full text-sm font-semibold
+           shadow-sm backdrop-blur-sm;
+  }
+  
+  .status-open {
+    @apply bg-gradient-to-r from-green-500 to-emerald-500 text-white shadow-green-500/30;
+  }
+  
+  .status-closed {
+    @apply bg-gradient-to-r from-red-500 to-rose-500 text-white shadow-red-500/30;
+  }
+  
+  .status-limited {
+    @apply bg-gradient-to-r from-yellow-400 to-amber-500 text-white shadow-yellow-500/30;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-sbu-red to-red-700 bg-clip-text text-transparent;
+  }
+
+  .glass-effect {
+    @apply bg-white/80 backdrop-blur-md border border-white/20;
+  }
+
+  .spot-open {
+    @apply bg-gradient-to-br from-green-400 to-emerald-500 border-2 border-emerald-600 
+           shadow-md shadow-green-500/30 hover:shadow-lg hover:shadow-green-500/50
+           hover:scale-110 transition-all duration-200 cursor-pointer;
+  }
+
+  .spot-occupied {
+    @apply bg-gradient-to-br from-red-400 to-rose-500 border-2 border-red-600 
+           shadow-md shadow-red-500/20 opacity-75;
+  }
+
+  .spot-accessible {
+    @apply bg-gradient-to-br from-blue-400 to-indigo-500 border-2 border-blue-600 
+           shadow-md shadow-blue-500/30 ring-2 ring-blue-300 ring-offset-1;
+  }
+
+  .spot-ev {
+    @apply bg-gradient-to-br from-emerald-400 to-teal-500 border-2 border-emerald-600 
+           shadow-md shadow-emerald-500/30 ring-2 ring-emerald-300 ring-offset-1;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .text-shadow-lg {
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-in;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.5s ease-out;
+  }
+
+  .animate-scale-in {
+    animation: scaleIn 0.3s ease-out;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,1487 @@
+[
+  {
+    "id": "lot-1",
+    "name": "Lot 1",
+    "code": "1",
+    "type": "lot",
+    "capacity": 410,
+    "fakeCapacityForDemo": 430,
+    "available": 300,
+    "tags": [
+      "commuter",
+      "permit",
+      "west-campus"
+    ],
+    "amenities": {
+      "ev": false,
+      "accessible": true
+    },
+    "hours": "Evening/Weekend: 4pm-7am Mon-Fri, All day Sat-Sun",
+    "enforcementHours": "evening_weekend",
+    "is247Restricted": false,
+    "isMetered": false,
+    "fallSessionAllowed": true,
+    "notes": "West Campus commuter parking.",
+    "location": {
+      "lat": 40.916999999999994,
+      "lng": -73.12100000000001
+    },
+    "sections": [
+      {
+        "id": "lot1-commuter",
+        "label": "Commuter Section",
+        "type": "student",
+        "capacity": 410,
+        "fakeCapacityForDemo": 430,
+        "available": 300,
+        "spots": []
+      }
+    ]
+  },
+  {
+    "id": "lot-2",
+    "name": "Lot 2",
+    "code": "2",
+    "type": "lot",
+    "capacity": 420,
+    "fakeCapacityForDemo": 440,
+    "available": 300,
+    "tags": [
+      "commuter",
+      "permit",
+      "west-campus"
+    ],
+    "amenities": {
+      "ev": true,
+      "accessible": true
+    },
+    "hours": "Evening/Weekend: 4pm-7am Mon-Fri, All day Sat-Sun",
+    "enforcementHours": "evening_weekend",
+    "is247Restricted": false,
+    "isMetered": false,
+    "fallSessionAllowed": true,
+    "notes": "West Campus commuter parking.",
+    "location": {
+      "lat": 40.918,
+      "lng": -73.122
+    },
+    "sections": [
+      {
+        "id": "lot2-commuter",
+        "label": "Commuter Section",
+        "type": "student",
+        "capacity": 420,
+        "fakeCapacityForDemo": 440,
+        "available": 300,
+        "spots": []
+      }
+    ]
+  },
+  {
+    "id": "lot-3",
+    "name": "Lot 3",
+    "code": "3",
+    "type": "lot",
+    "capacity": 430,
+    "fakeCapacityForDemo": 450,
+    "available": 300,
+    "tags": [
+      "commuter",
+      "permit",
+      "west-campus"
+    ],
+    "amenities": {
+      "ev": false,
+      "accessible": true
+    },
+    "hours": "Evening/Weekend: 4pm-7am Mon-Fri, All day Sat-Sun",
+    "enforcementHours": "evening_weekend",
+    "is247Restricted": false,
+    "isMetered": false,
+    "fallSessionAllowed": true,
+    "notes": "West Campus commuter parking.",
+    "location": {
+      "lat": 40.919,
+      "lng": -73.123
+    },
+    "sections": [
+      {
+        "id": "lot3-commuter",
+        "label": "Commuter Section",
+        "type": "student",
+        "capacity": 430,
+        "fakeCapacityForDemo": 450,
+        "available": 300,
+        "spots": []
+      }
+    ]
+  },
+  {
+    "id": "lot-4",
+    "name": "Lot 4",
+    "code": "4",
+    "type": "lot",
+    "capacity": 440,
+    "fakeCapacityForDemo": 460,
+    "available": 300,
+    "tags": [
+      "commuter",
+      "permit",
+      "west-campus"
+    ],
+    "amenities": {
+      "ev": false,
+      "accessible": true
+    },
+    "hours": "Evening/Weekend: 4pm-7am Mon-Fri, All day Sat-Sun",
+    "enforcementHours": "evening_weekend",
+    "is247Restricted": false,
+    "isMetered": true,
+    "fallSessionAllowed": true,
+    "notes": "West Campus commuter parking.",
+    "location": {
+      "lat": 40.919999999999995,
+      "lng": -73.12400000000001
+    },
+    "sections": [
+      {
+        "id": "lot4-commuter",
+        "label": "Commuter Section",
+        "type": "student",
+        "capacity": 440,
+        "fakeCapacityForDemo": 460,
+        "available": 300,
+        "spots": []
+      }
+    ]
+  },
+  {
+    "id": "lot-5",
+    "name": "Lot 5",
+    "code": "5",
+    "type": "lot",
+    "capacity": 450,
+    "fakeCapacityForDemo": 470,
+    "available": 300,
+    "tags": [
+      "commuter",
+      "permit",
+      "west-campus"
+    ],
+    "amenities": {
+      "ev": false,
+      "accessible": true
+    },
+    "hours": "Evening/Weekend: 4pm-7am Mon-Fri, All day Sat-Sun",
+    "enforcementHours": "evening_weekend",
+    "is247Restricted": false,
+    "isMetered": false,
+    "fallSessionAllowed": true,
+    "notes": "West Campus commuter parking.",
+    "location": {
+      "lat": 40.921,
+      "lng": -73.125
+    },
+    "sections": [
+      {
+        "id": "lot5-commuter",
+        "label": "Commuter Section",
+        "type": "student",
+        "capacity": 450,
+        "fakeCapacityForDemo": 470,
+        "available": 300,
+        "spots": []
+      }
+    ]
+  },
+  {
+    "id": "lot-6",
+    "name": "Lot 6",
+    "code": "6",
+    "type": "lot",
+    "capacity": 460,
+    "fakeCapacityForDemo": 480,
+    "available": 300,
+    "tags": [
+      "commuter",
+      "permit",
+      "west-campus"
+    ],
+    "amenities": {
+      "ev": false,
+      "accessible": true
+    },
+    "hours": "Evening/Weekend: 4pm-7am Mon-Fri, All day Sat-Sun",
+    "enforcementHours": "evening_weekend",
+    "is247Restricted": false,
+    "isMetered": false,
+    "fallSessionAllowed": true,
+    "notes": "West Campus commuter parking.",
+    "location": {
+      "lat": 40.922,
+      "lng": -73.126
+    },
+    "sections": [
+      {
+        "id": "lot6-commuter",
+        "label": "Commuter Section",
+        "type": "student",
+        "capacity": 460,
+        "fakeCapacityForDemo": 480,
+        "available": 300,
+        "spots": []
+      }
+    ]
+  },
+  {
+    "id": "lot-7",
+    "name": "Lot 7",
+    "code": "7",
+    "type": "lot",
+    "capacity": 470,
+    "fakeCapacityForDemo": 490,
+    "available": 300,
+    "tags": [
+      "commuter",
+      "permit",
+      "west-campus"
+    ],
+    "amenities": {
+      "ev": false,
+      "accessible": true
+    },
+    "hours": "Evening/Weekend: 4pm-7am Mon-Fri, All day Sat-Sun",
+    "enforcementHours": "evening_weekend",
+    "is247Restricted": false,
+    "isMetered": true,
+    "fallSessionAllowed": true,
+    "notes": "West Campus commuter parking.",
+    "location": {
+      "lat": 40.922999999999995,
+      "lng": -73.12700000000001
+    },
+    "sections": [
+      {
+        "id": "lot7-commuter",
+        "label": "Commuter Section",
+        "type": "student",
+        "capacity": 470,
+        "fakeCapacityForDemo": 490,
+        "available": 300,
+        "spots": []
+      }
+    ]
+  },
+  {
+    "id": "lot-8",
+    "name": "Lot 8",
+    "code": "8",
+    "type": "lot",
+    "capacity": 480,
+    "fakeCapacityForDemo": 500,
+    "available": 300,
+    "tags": [
+      "commuter",
+      "permit",
+      "west-campus"
+    ],
+    "amenities": {
+      "ev": false,
+      "accessible": true
+    },
+    "hours": "Evening/Weekend: 4pm-7am Mon-Fri, All day Sat-Sun",
+    "enforcementHours": "evening_weekend",
+    "is247Restricted": false,
+    "isMetered": false,
+    "fallSessionAllowed": true,
+    "notes": "West Campus commuter parking.",
+    "location": {
+      "lat": 40.924,
+      "lng": -73.128
+    },
+    "sections": [
+      {
+        "id": "lot8-commuter",
+        "label": "Commuter Section",
+        "type": "student",
+        "capacity": 480,
+        "fakeCapacityForDemo": 500,
+        "available": 300,
+        "spots": []
+      }
+    ]
+  },
+  {
+    "id": "lot-9",
+    "name": "Lot 9",
+    "code": "9",
+    "type": "lot",
+    "capacity": 490,
+    "fakeCapacityForDemo": 510,
+    "available": 300,
+    "tags": [
+      "commuter",
+      "permit",
+      "west-campus"
+    ],
+    "amenities": {
+      "ev": false,
+      "accessible": true
+    },
+    "hours": "Evening/Weekend: 4pm-7am Mon-Fri, All day Sat-Sun",
+    "enforcementHours": "evening_weekend",
+    "is247Restricted": false,
+    "isMetered": false,
+    "fallSessionAllowed": true,
+    "notes": "West Campus commuter parking.",
+    "location": {
+      "lat": 40.925,
+      "lng": -73.129
+    },
+    "sections": [
+      {
+        "id": "lot9-commuter",
+        "label": "Commuter Section",
+        "type": "student",
+        "capacity": 490,
+        "fakeCapacityForDemo": 510,
+        "available": 300,
+        "spots": []
+      }
+    ]
+  },
+  {
+    "id": "lot-10",
+    "name": "Lot 10",
+    "code": "10",
+    "type": "lot",
+    "capacity": 500,
+    "fakeCapacityForDemo": 520,
+    "available": 300,
+    "tags": [
+      "commuter",
+      "permit",
+      "west-campus"
+    ],
+    "amenities": {
+      "ev": false,
+      "accessible": true
+    },
+    "hours": "Evening/Weekend: 4pm-7am Mon-Fri, All day Sat-Sun",
+    "enforcementHours": "evening_weekend",
+    "is247Restricted": false,
+    "isMetered": false,
+    "fallSessionAllowed": true,
+    "notes": "West Campus commuter parking.",
+    "location": {
+      "lat": 40.925999999999995,
+      "lng": -73.13000000000001
+    },
+    "sections": [
+      {
+        "id": "lot10-commuter",
+        "label": "Commuter Section",
+        "type": "student",
+        "capacity": 500,
+        "fakeCapacityForDemo": 520,
+        "available": 300,
+        "spots": []
+      }
+    ]
+  },
+  {
+    "id": "lot-11",
+    "name": "Lot 11",
+    "code": "11",
+    "type": "lot",
+    "capacity": 510,
+    "fakeCapacityForDemo": 530,
+    "available": 300,
+    "tags": [
+      "commuter",
+      "permit",
+      "west-campus"
+    ],
+    "amenities": {
+      "ev": false,
+      "accessible": true
+    },
+    "hours": "Evening/Weekend: 4pm-7am Mon-Fri, All day Sat-Sun",
+    "enforcementHours": "evening_weekend",
+    "is247Restricted": false,
+    "isMetered": false,
+    "fallSessionAllowed": true,
+    "notes": "West Campus commuter parking.",
+    "location": {
+      "lat": 40.927,
+      "lng": -73.131
+    },
+    "sections": [
+      {
+        "id": "lot11-commuter",
+        "label": "Commuter Section",
+        "type": "student",
+        "capacity": 510,
+        "fakeCapacityForDemo": 530,
+        "available": 300,
+        "spots": []
+      }
+    ]
+  },
+  {
+    "id": "lot-12",
+    "name": "Lot 12",
+    "code": "12",
+    "type": "lot",
+    "capacity": 520,
+    "fakeCapacityForDemo": 540,
+    "available": 300,
+    "tags": [
+      "commuter",
+      "permit",
+      "west-campus"
+    ],
+    "amenities": {
+      "ev": false,
+      "accessible": true
+    },
+    "hours": "Evening/Weekend: 4pm-7am Mon-Fri, All day Sat-Sun",
+    "enforcementHours": "evening_weekend",
+    "is247Restricted": false,
+    "isMetered": true,
+    "fallSessionAllowed": true,
+    "notes": "West Campus commuter parking.",
+    "location": {
+      "lat": 40.928,
+      "lng": -73.132
+    },
+    "sections": [
+      {
+        "id": "lot12-commuter",
+        "label": "Commuter Section",
+        "type": "student",
+        "capacity": 520,
+        "fakeCapacityForDemo": 540,
+        "available": 300,
+        "spots": []
+      }
+    ]
+  },
+  {
+    "id": "lot-13",
+    "name": "Lot 13",
+    "code": "13",
+    "type": "lot",
+    "capacity": 530,
+    "fakeCapacityForDemo": 550,
+    "available": 300,
+    "tags": [
+      "commuter",
+      "permit",
+      "west-campus"
+    ],
+    "amenities": {
+      "ev": false,
+      "accessible": true
+    },
+    "hours": "Evening/Weekend: 4pm-7am Mon-Fri, All day Sat-Sun",
+    "enforcementHours": "evening_weekend",
+    "is247Restricted": false,
+    "isMetered": false,
+    "fallSessionAllowed": true,
+    "notes": "West Campus commuter parking.",
+    "location": {
+      "lat": 40.928999999999995,
+      "lng": -73.13300000000001
+    },
+    "sections": [
+      {
+        "id": "lot13-commuter",
+        "label": "Commuter Section",
+        "type": "student",
+        "capacity": 530,
+        "fakeCapacityForDemo": 550,
+        "available": 300,
+        "spots": []
+      }
+    ]
+  },
+  {
+    "id": "lot-14",
+    "name": "Lot 14",
+    "code": "14",
+    "type": "lot",
+    "capacity": 540,
+    "fakeCapacityForDemo": 560,
+    "available": 300,
+    "tags": [
+      "commuter",
+      "permit",
+      "west-campus"
+    ],
+    "amenities": {
+      "ev": false,
+      "accessible": true
+    },
+    "hours": "Evening/Weekend: 4pm-7am Mon-Fri, All day Sat-Sun",
+    "enforcementHours": "evening_weekend",
+    "is247Restricted": false,
+    "isMetered": false,
+    "fallSessionAllowed": true,
+    "notes": "West Campus commuter parking.",
+    "location": {
+      "lat": 40.93,
+      "lng": -73.134
+    },
+    "sections": [
+      {
+        "id": "lot14-commuter",
+        "label": "Commuter Section",
+        "type": "student",
+        "capacity": 540,
+        "fakeCapacityForDemo": 560,
+        "available": 300,
+        "spots": []
+      }
+    ]
+  },
+  {
+    "id": "lot-15",
+    "name": "Lot 15",
+    "code": "15",
+    "type": "lot",
+    "capacity": 550,
+    "fakeCapacityForDemo": 570,
+    "available": 300,
+    "tags": [
+      "commuter",
+      "permit",
+      "west-campus"
+    ],
+    "amenities": {
+      "ev": false,
+      "accessible": true
+    },
+    "hours": "Evening/Weekend: 4pm-7am Mon-Fri, All day Sat-Sun",
+    "enforcementHours": "evening_weekend",
+    "is247Restricted": false,
+    "isMetered": false,
+    "fallSessionAllowed": true,
+    "notes": "West Campus commuter parking.",
+    "location": {
+      "lat": 40.931,
+      "lng": -73.135
+    },
+    "sections": [
+      {
+        "id": "lot15-commuter",
+        "label": "Commuter Section",
+        "type": "student",
+        "capacity": 550,
+        "fakeCapacityForDemo": 570,
+        "available": 300,
+        "spots": []
+      }
+    ]
+  },
+  {
+    "id": "lot-16",
+    "name": "Lot 16",
+    "code": "16",
+    "type": "lot",
+    "capacity": 560,
+    "fakeCapacityForDemo": 580,
+    "available": 300,
+    "tags": [
+      "commuter",
+      "permit",
+      "west-campus"
+    ],
+    "amenities": {
+      "ev": false,
+      "accessible": true
+    },
+    "hours": "Evening/Weekend: 4pm-7am Mon-Fri, All day Sat-Sun",
+    "enforcementHours": "evening_weekend",
+    "is247Restricted": false,
+    "isMetered": false,
+    "fallSessionAllowed": true,
+    "notes": "West Campus commuter parking.",
+    "location": {
+      "lat": 40.931999999999995,
+      "lng": -73.13600000000001
+    },
+    "sections": [
+      {
+        "id": "lot16-commuter",
+        "label": "Commuter Section",
+        "type": "student",
+        "capacity": 560,
+        "fakeCapacityForDemo": 580,
+        "available": 300,
+        "spots": []
+      }
+    ]
+  },
+  {
+    "id": "lot-17",
+    "name": "Lot 17",
+    "code": "17",
+    "type": "lot",
+    "capacity": 570,
+    "fakeCapacityForDemo": 590,
+    "available": 300,
+    "tags": [
+      "commuter",
+      "permit",
+      "west-campus"
+    ],
+    "amenities": {
+      "ev": false,
+      "accessible": true
+    },
+    "hours": "Evening/Weekend: 4pm-7am Mon-Fri, All day Sat-Sun",
+    "enforcementHours": "evening_weekend",
+    "is247Restricted": false,
+    "isMetered": false,
+    "fallSessionAllowed": true,
+    "notes": "West Campus commuter parking.",
+    "location": {
+      "lat": 40.933,
+      "lng": -73.137
+    },
+    "sections": [
+      {
+        "id": "lot17-commuter",
+        "label": "Commuter Section",
+        "type": "student",
+        "capacity": 570,
+        "fakeCapacityForDemo": 590,
+        "available": 300,
+        "spots": []
+      }
+    ]
+  },
+  {
+    "id": "lot-18",
+    "name": "Lot 18",
+    "code": "18",
+    "type": "lot",
+    "capacity": 580,
+    "fakeCapacityForDemo": 600,
+    "available": 300,
+    "tags": [
+      "commuter",
+      "permit",
+      "west-campus"
+    ],
+    "amenities": {
+      "ev": false,
+      "accessible": true
+    },
+    "hours": "Evening/Weekend: 4pm-7am Mon-Fri, All day Sat-Sun",
+    "enforcementHours": "evening_weekend",
+    "is247Restricted": false,
+    "isMetered": false,
+    "fallSessionAllowed": true,
+    "notes": "West Campus commuter parking.",
+    "location": {
+      "lat": 40.934,
+      "lng": -73.138
+    },
+    "sections": [
+      {
+        "id": "lot18-commuter",
+        "label": "Commuter Section",
+        "type": "student",
+        "capacity": 580,
+        "fakeCapacityForDemo": 600,
+        "available": 300,
+        "spots": []
+      }
+    ]
+  },
+  {
+    "id": "lot-19",
+    "name": "Lot 19",
+    "code": "19",
+    "type": "lot",
+    "capacity": 590,
+    "fakeCapacityForDemo": 610,
+    "available": 300,
+    "tags": [
+      "commuter",
+      "permit",
+      "west-campus"
+    ],
+    "amenities": {
+      "ev": false,
+      "accessible": true
+    },
+    "hours": "Evening/Weekend: 4pm-7am Mon-Fri, All day Sat-Sun",
+    "enforcementHours": "evening_weekend",
+    "is247Restricted": false,
+    "isMetered": true,
+    "fallSessionAllowed": true,
+    "notes": "West Campus commuter parking.",
+    "location": {
+      "lat": 40.934999999999995,
+      "lng": -73.13900000000001
+    },
+    "sections": [
+      {
+        "id": "lot19-commuter",
+        "label": "Commuter Section",
+        "type": "student",
+        "capacity": 590,
+        "fakeCapacityForDemo": 610,
+        "available": 300,
+        "spots": []
+      }
+    ]
+  },
+  {
+    "id": "lot-20",
+    "name": "Lot 20",
+    "code": "20",
+    "type": "lot",
+    "capacity": 600,
+    "fakeCapacityForDemo": 620,
+    "available": 300,
+    "tags": [
+      "commuter",
+      "permit",
+      "west-campus"
+    ],
+    "amenities": {
+      "ev": false,
+      "accessible": true
+    },
+    "hours": "Evening/Weekend: 4pm-7am Mon-Fri, All day Sat-Sun",
+    "enforcementHours": "evening_weekend",
+    "is247Restricted": false,
+    "isMetered": false,
+    "fallSessionAllowed": true,
+    "notes": "West Campus commuter parking.",
+    "location": {
+      "lat": 40.936,
+      "lng": -73.14
+    },
+    "sections": [
+      {
+        "id": "lot20-commuter",
+        "label": "Commuter Section",
+        "type": "student",
+        "capacity": 600,
+        "fakeCapacityForDemo": 620,
+        "available": 300,
+        "spots": []
+      }
+    ]
+  },
+  {
+    "id": "lot-21",
+    "name": "Lot 21",
+    "code": "21",
+    "type": "lot",
+    "capacity": 455,
+    "fakeCapacityForDemo": 475,
+    "available": 250,
+    "tags": [
+      "faculty",
+      "staff",
+      "east-campus"
+    ],
+    "amenities": {
+      "ev": false,
+      "accessible": true
+    },
+    "hours": "Enforced Mon-Fri 7am-4pm",
+    "enforcementHours": "daytime",
+    "is247Restricted": false,
+    "isMetered": false,
+    "fallSessionAllowed": true,
+    "notes": "East Campus faculty/staff lot.",
+    "location": {
+      "lat": 40.931,
+      "lng": -73.131
+    },
+    "sections": [
+      {
+        "id": "lot21-faculty",
+        "label": "Faculty/Staff Section",
+        "type": "faculty",
+        "capacity": 455,
+        "fakeCapacityForDemo": 475,
+        "available": 250,
+        "spots": []
+      }
+    ]
+  },
+  {
+    "id": "lot-22",
+    "name": "Lot 22",
+    "code": "22",
+    "type": "lot",
+    "capacity": 460,
+    "fakeCapacityForDemo": 480,
+    "available": 250,
+    "tags": [
+      "faculty",
+      "staff",
+      "east-campus"
+    ],
+    "amenities": {
+      "ev": false,
+      "accessible": true
+    },
+    "hours": "Enforced Mon-Fri 7am-4pm",
+    "enforcementHours": "daytime",
+    "is247Restricted": false,
+    "isMetered": false,
+    "fallSessionAllowed": true,
+    "notes": "East Campus faculty/staff lot.",
+    "location": {
+      "lat": 40.931999999999995,
+      "lng": -73.132
+    },
+    "sections": [
+      {
+        "id": "lot22-faculty",
+        "label": "Faculty/Staff Section",
+        "type": "faculty",
+        "capacity": 460,
+        "fakeCapacityForDemo": 480,
+        "available": 250,
+        "spots": []
+      }
+    ]
+  },
+  {
+    "id": "lot-23",
+    "name": "Lot 23",
+    "code": "23",
+    "type": "lot",
+    "capacity": 465,
+    "fakeCapacityForDemo": 485,
+    "available": 250,
+    "tags": [
+      "faculty",
+      "staff",
+      "east-campus"
+    ],
+    "amenities": {
+      "ev": false,
+      "accessible": true
+    },
+    "hours": "Enforced Mon-Fri 7am-4pm",
+    "enforcementHours": "daytime",
+    "is247Restricted": false,
+    "isMetered": false,
+    "fallSessionAllowed": true,
+    "notes": "East Campus faculty/staff lot.",
+    "location": {
+      "lat": 40.933,
+      "lng": -73.133
+    },
+    "sections": [
+      {
+        "id": "lot23-faculty",
+        "label": "Faculty/Staff Section",
+        "type": "faculty",
+        "capacity": 465,
+        "fakeCapacityForDemo": 485,
+        "available": 250,
+        "spots": []
+      }
+    ]
+  },
+  {
+    "id": "lot-24",
+    "name": "Lot 24",
+    "code": "24",
+    "type": "lot",
+    "capacity": 470,
+    "fakeCapacityForDemo": 490,
+    "available": 250,
+    "tags": [
+      "faculty",
+      "staff",
+      "east-campus"
+    ],
+    "amenities": {
+      "ev": false,
+      "accessible": true
+    },
+    "hours": "Enforced Mon-Fri 7am-4pm",
+    "enforcementHours": "daytime",
+    "is247Restricted": false,
+    "isMetered": false,
+    "fallSessionAllowed": true,
+    "notes": "East Campus faculty/staff lot.",
+    "location": {
+      "lat": 40.934,
+      "lng": -73.134
+    },
+    "sections": [
+      {
+        "id": "lot24-faculty",
+        "label": "Faculty/Staff Section",
+        "type": "faculty",
+        "capacity": 470,
+        "fakeCapacityForDemo": 490,
+        "available": 250,
+        "spots": []
+      }
+    ]
+  },
+  {
+    "id": "lot-50",
+    "name": "Lot 50",
+    "code": "50",
+    "type": "lot",
+    "capacity": 600,
+    "fakeCapacityForDemo": 620,
+    "available": 250,
+    "tags": [
+      "faculty",
+      "staff",
+      "east-campus"
+    ],
+    "amenities": {
+      "ev": false,
+      "accessible": true
+    },
+    "hours": "Enforced Mon-Fri 7am-4pm",
+    "enforcementHours": "daytime",
+    "is247Restricted": false,
+    "isMetered": false,
+    "fallSessionAllowed": true,
+    "notes": "East Campus faculty/staff lot.",
+    "location": {
+      "lat": 40.959999999999994,
+      "lng": -73.16
+    },
+    "sections": [
+      {
+        "id": "lot50-faculty",
+        "label": "Faculty/Staff Section",
+        "type": "faculty",
+        "capacity": 600,
+        "fakeCapacityForDemo": 620,
+        "available": 250,
+        "spots": []
+      }
+    ]
+  },
+  {
+    "id": "lot-51",
+    "name": "Lot 51",
+    "code": "51",
+    "type": "lot",
+    "capacity": 605,
+    "fakeCapacityForDemo": 625,
+    "available": 250,
+    "tags": [
+      "faculty",
+      "staff",
+      "east-campus"
+    ],
+    "amenities": {
+      "ev": false,
+      "accessible": true
+    },
+    "hours": "Enforced Mon-Fri 7am-4pm",
+    "enforcementHours": "daytime",
+    "is247Restricted": false,
+    "isMetered": false,
+    "fallSessionAllowed": true,
+    "notes": "East Campus faculty/staff lot.",
+    "location": {
+      "lat": 40.961,
+      "lng": -73.161
+    },
+    "sections": [
+      {
+        "id": "lot51-faculty",
+        "label": "Faculty/Staff Section",
+        "type": "faculty",
+        "capacity": 605,
+        "fakeCapacityForDemo": 625,
+        "available": 250,
+        "spots": []
+      }
+    ]
+  },
+  {
+    "id": "lot-52",
+    "name": "Lot 52",
+    "code": "52",
+    "type": "lot",
+    "capacity": 610,
+    "fakeCapacityForDemo": 630,
+    "available": 250,
+    "tags": [
+      "faculty",
+      "staff",
+      "east-campus"
+    ],
+    "amenities": {
+      "ev": true,
+      "accessible": true
+    },
+    "hours": "Enforced Mon-Fri 7am-4pm",
+    "enforcementHours": "daytime",
+    "is247Restricted": false,
+    "isMetered": false,
+    "fallSessionAllowed": true,
+    "notes": "East Campus faculty/staff lot.",
+    "location": {
+      "lat": 40.961999999999996,
+      "lng": -73.162
+    },
+    "sections": [
+      {
+        "id": "lot52-faculty",
+        "label": "Faculty/Staff Section",
+        "type": "faculty",
+        "capacity": 610,
+        "fakeCapacityForDemo": 630,
+        "available": 250,
+        "spots": []
+      }
+    ]
+  },
+  {
+    "id": "lot-53",
+    "name": "Lot 53",
+    "code": "53",
+    "type": "lot",
+    "capacity": 615,
+    "fakeCapacityForDemo": 635,
+    "available": 250,
+    "tags": [
+      "faculty",
+      "staff",
+      "east-campus"
+    ],
+    "amenities": {
+      "ev": false,
+      "accessible": true
+    },
+    "hours": "Enforced Mon-Fri 7am-4pm",
+    "enforcementHours": "daytime",
+    "is247Restricted": false,
+    "isMetered": false,
+    "fallSessionAllowed": true,
+    "notes": "East Campus faculty/staff lot.",
+    "location": {
+      "lat": 40.962999999999994,
+      "lng": -73.163
+    },
+    "sections": [
+      {
+        "id": "lot53-faculty",
+        "label": "Faculty/Staff Section",
+        "type": "faculty",
+        "capacity": 615,
+        "fakeCapacityForDemo": 635,
+        "available": 250,
+        "spots": []
+      }
+    ]
+  },
+  {
+    "id": "lot-54",
+    "name": "Lot 54",
+    "code": "54",
+    "type": "lot",
+    "capacity": 620,
+    "fakeCapacityForDemo": 640,
+    "available": 250,
+    "tags": [
+      "faculty",
+      "staff",
+      "east-campus"
+    ],
+    "amenities": {
+      "ev": false,
+      "accessible": true
+    },
+    "hours": "Enforced Mon-Fri 7am-4pm",
+    "enforcementHours": "daytime",
+    "is247Restricted": false,
+    "isMetered": false,
+    "fallSessionAllowed": true,
+    "notes": "East Campus faculty/staff lot.",
+    "location": {
+      "lat": 40.964,
+      "lng": -73.164
+    },
+    "sections": [
+      {
+        "id": "lot54-faculty",
+        "label": "Faculty/Staff Section",
+        "type": "faculty",
+        "capacity": 620,
+        "fakeCapacityForDemo": 640,
+        "available": 250,
+        "spots": []
+      }
+    ]
+  },
+  {
+    "id": "lot-25",
+    "name": "Lot 25",
+    "code": "25",
+    "type": "lot",
+    "capacity": 260,
+    "fakeCapacityForDemo": 280,
+    "available": 180,
+    "tags": [
+      "commuter",
+      "south-campus"
+    ],
+    "amenities": {
+      "ev": false,
+      "accessible": true
+    },
+    "hours": "Enforced Mon-Fri 7am-4pm",
+    "enforcementHours": "daytime",
+    "is247Restricted": false,
+    "isMetered": true,
+    "fallSessionAllowed": true,
+    "notes": "South Campus parking area.",
+    "location": {
+      "lat": 40.934999999999995,
+      "lng": -73.14
+    },
+    "sections": [
+      {
+        "id": "lot25-south",
+        "label": "South Section",
+        "type": "student",
+        "capacity": 260,
+        "fakeCapacityForDemo": 280,
+        "available": 180,
+        "spots": []
+      }
+    ]
+  },
+  {
+    "id": "lot-26",
+    "name": "Lot 26",
+    "code": "26",
+    "type": "lot",
+    "capacity": 260,
+    "fakeCapacityForDemo": 280,
+    "available": 180,
+    "tags": [
+      "commuter",
+      "south-campus"
+    ],
+    "amenities": {
+      "ev": false,
+      "accessible": true
+    },
+    "hours": "Enforced Mon-Fri 7am-4pm",
+    "enforcementHours": "daytime",
+    "is247Restricted": false,
+    "isMetered": true,
+    "fallSessionAllowed": true,
+    "notes": "South Campus parking area.",
+    "location": {
+      "lat": 40.936,
+      "lng": -73.14099999999999
+    },
+    "sections": [
+      {
+        "id": "lot26-south",
+        "label": "South Section",
+        "type": "student",
+        "capacity": 260,
+        "fakeCapacityForDemo": 280,
+        "available": 180,
+        "spots": []
+      }
+    ]
+  },
+  {
+    "id": "lot-27",
+    "name": "Lot 27",
+    "code": "27",
+    "type": "lot",
+    "capacity": 260,
+    "fakeCapacityForDemo": 280,
+    "available": 180,
+    "tags": [
+      "commuter",
+      "south-campus"
+    ],
+    "amenities": {
+      "ev": false,
+      "accessible": true
+    },
+    "hours": "Enforced Mon-Fri 7am-4pm",
+    "enforcementHours": "daytime",
+    "is247Restricted": false,
+    "isMetered": false,
+    "fallSessionAllowed": true,
+    "notes": "South Campus parking area.",
+    "location": {
+      "lat": 40.937,
+      "lng": -73.142
+    },
+    "sections": [
+      {
+        "id": "lot27-south",
+        "label": "South Section",
+        "type": "student",
+        "capacity": 260,
+        "fakeCapacityForDemo": 280,
+        "available": 180,
+        "spots": []
+      }
+    ]
+  },
+  {
+    "id": "lot-28",
+    "name": "Lot 28",
+    "code": "28",
+    "type": "lot",
+    "capacity": 260,
+    "fakeCapacityForDemo": 280,
+    "available": 180,
+    "tags": [
+      "commuter",
+      "south-campus"
+    ],
+    "amenities": {
+      "ev": false,
+      "accessible": true
+    },
+    "hours": "Enforced Mon-Fri 7am-4pm",
+    "enforcementHours": "daytime",
+    "is247Restricted": false,
+    "isMetered": true,
+    "fallSessionAllowed": true,
+    "notes": "South Campus parking area.",
+    "location": {
+      "lat": 40.937999999999995,
+      "lng": -73.143
+    },
+    "sections": [
+      {
+        "id": "lot28-south",
+        "label": "South Section",
+        "type": "student",
+        "capacity": 260,
+        "fakeCapacityForDemo": 280,
+        "available": 180,
+        "spots": []
+      }
+    ]
+  },
+  {
+    "id": "south-p-lot",
+    "name": "South P Lot",
+    "code": "P",
+    "type": "lot",
+    "capacity": 2552,
+    "fakeCapacityForDemo": 2570,
+    "available": 1786,
+    "tags": [
+      "commuter",
+      "visitor",
+      "south-campus"
+    ],
+    "amenities": {
+      "ev": true,
+      "accessible": true
+    },
+    "hours": "Enforced Mon-Fri 7am-4pm",
+    "enforcementHours": "daytime",
+    "is247Restricted": false,
+    "isMetered": false,
+    "fallSessionAllowed": true,
+    "notes": "Large South Campus commuter/visitor lot (South P).",
+    "location": {
+      "lat": 40.91,
+      "lng": -73.115
+    },
+    "sections": [
+      {
+        "id": "southp-commuter",
+        "label": "Commuter/Visitor Section",
+        "type": "student",
+        "capacity": 2552,
+        "fakeCapacityForDemo": 2570,
+        "available": 1786,
+        "spots": []
+      }
+    ]
+  },
+  {
+    "id": "admin-garage",
+    "name": "Administration Parking Garage",
+    "code": "ADMIN",
+    "type": "garage",
+    "capacity": 900,
+    "fakeCapacityForDemo": 920,
+    "available": 315,
+    "tags": [
+      "paid",
+      "garage",
+      "visitor",
+      "west-campus"
+    ],
+    "amenities": {
+      "ev": true,
+      "accessible": true
+    },
+    "hours": "24/7 Paid",
+    "enforcementHours": "24/7",
+    "is247Restricted": true,
+    "isMetered": false,
+    "isGarage": true,
+    "fallSessionAllowed": false,
+    "notes": "Paid garage near Administration Building.",
+    "location": {
+      "lat": 40.909,
+      "lng": -73.117
+    },
+    "sections": [
+      {
+        "id": "admin-paid",
+        "label": "Paid Parking",
+        "type": "paid_meter",
+        "capacity": 900,
+        "fakeCapacityForDemo": 920,
+        "available": 315,
+        "spots": []
+      }
+    ]
+  },
+  {
+    "id": "hospital-garage",
+    "name": "Hospital Parking Garage",
+    "code": "HOSP",
+    "type": "garage",
+    "capacity": 1100,
+    "fakeCapacityForDemo": 1120,
+    "available": 450,
+    "tags": [
+      "paid",
+      "garage",
+      "visitor",
+      "east-campus"
+    ],
+    "amenities": {
+      "ev": true,
+      "accessible": true
+    },
+    "hours": "24/7 Paid",
+    "enforcementHours": "24/7",
+    "is247Restricted": true,
+    "isMetered": false,
+    "isGarage": true,
+    "fallSessionAllowed": false,
+    "notes": "Hospital garage for patients and visitors.",
+    "location": {
+      "lat": 40.913,
+      "lng": -73.116
+    },
+    "sections": [
+      {
+        "id": "hospital-paid",
+        "label": "Paid Parking",
+        "type": "paid_meter",
+        "capacity": 1100,
+        "fakeCapacityForDemo": 1120,
+        "available": 450,
+        "spots": []
+      }
+    ]
+  },
+  {
+    "id": "hsc-garage",
+    "name": "Health Sciences Center Garage",
+    "code": "HSC",
+    "type": "garage",
+    "capacity": 800,
+    "fakeCapacityForDemo": 820,
+    "available": 400,
+    "tags": [
+      "paid",
+      "garage",
+      "visitor",
+      "east-campus"
+    ],
+    "amenities": {
+      "ev": true,
+      "accessible": true
+    },
+    "hours": "24/7 Paid",
+    "enforcementHours": "24/7",
+    "is247Restricted": true,
+    "isMetered": false,
+    "isGarage": true,
+    "fallSessionAllowed": false,
+    "notes": "HSC garage for faculty and hospital visitors.",
+    "location": {
+      "lat": 40.914,
+      "lng": -73.115
+    },
+    "sections": [
+      {
+        "id": "hsc-paid",
+        "label": "Paid Parking",
+        "type": "paid_meter",
+        "capacity": 800,
+        "fakeCapacityForDemo": 820,
+        "available": 400,
+        "spots": []
+      }
+    ]
+  },
+  {
+    "id": "lirr-lot",
+    "name": "LIRR Station Lot",
+    "code": "LIRR",
+    "type": "lot",
+    "capacity": 400,
+    "fakeCapacityForDemo": 420,
+    "available": 200,
+    "tags": [
+      "commuter",
+      "visitor",
+      "off-campus"
+    ],
+    "amenities": {
+      "ev": false,
+      "accessible": true
+    },
+    "hours": "Public commuter lot.",
+    "enforcementHours": "none",
+    "is247Restricted": false,
+    "isMetered": false,
+    "fallSessionAllowed": true,
+    "notes": "Parking adjacent to Stony Brook LIRR station.",
+    "location": {
+      "lat": 40.912,
+      "lng": -73.122
+    },
+    "sections": [
+      {
+        "id": "lirr-commuter",
+        "label": "Commuter Section",
+        "type": "visitor",
+        "capacity": 400,
+        "fakeCapacityForDemo": 420,
+        "available": 200,
+        "spots": []
+      }
+    ]
+  }
+]
+
