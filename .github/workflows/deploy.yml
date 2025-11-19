@@ -25,8 +25,14 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Extract repository name
+        id: repo
+        run: echo "name=${GITHUB_REPOSITORY#*/}" >> $GITHUB_OUTPUT
+
       - name: Build
         run: npm run build
+        env:
+          VITE_BASE_PATH: /${{ steps.repo.outputs.name }}/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

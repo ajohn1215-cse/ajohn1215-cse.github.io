@@ -25,9 +25,12 @@ function ProtectedLayout() {
 
 function App() {
   const isAuthenticated = useAuthStore((state) => state.isAuthenticated);
+  
+  // Get base path from import.meta.env (set by Vite)
+  const basePath = import.meta.env.BASE_URL || '/';
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={basePath}>
       <Routes>
         {/* Default route: redirect to login if not authenticated, otherwise to home */}
         <Route
